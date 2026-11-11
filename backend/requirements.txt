@@ -1,0 +1,14 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+python-dotenv>=1.0
+bcrypt>=4.2
+PyJWT>=2.9
+email-validator>=2.2
+
+# Only needed if you switch DATABASE_URL to MySQL (uncomment both lines):
+# pymysql>=1.1
+# cryptography>=42
+
+# Only needed if you switch DATABASE_URL to PostgreSQL:
+# psycopg2-binary>=2.9
