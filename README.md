@@ -87,3 +87,10 @@ Optional: `database/schema_mysql.sql` and `database/seed.sql` create the same ta
 ## Frontend without a backend
 
 Copy `frontend/.env.example` to `frontend/.env` and set `VITE_USE_MOCK=true`. The frontend then uses fake in-browser data.
+
+## Screenshots
+
+![Explore stocks](docs/explore.png)
+![Stock detail with buy and sell](docs/stock.png)
+![Portfolio](docs/portfolio.png)
+![Order history](docs/orders.png)
